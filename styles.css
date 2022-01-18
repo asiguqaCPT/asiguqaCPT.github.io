@@ -1,17 +1,32 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+}
 main{
+    font-size: 18px;
     color: black;
     border-radius: 3%;
     width: 300px;
     margin: auto;
     padding: 20px;
-    background-color: pink;
+    background-color: hsl(216, 50%, 16%);
 }
+
 img{
     max-width: 100%;
     height: auto;
     border-radius: 3%;
 }
 
-p{
-    font-size: 18px;
+.general-info{
+    color: hsl(215, 51%, 70%);
+}
+#etherium-count{
+    color: hsl(178, 100%, 50%);
+}
+#line{
+    color: hsl(215, 32%, 27%);
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
 }
