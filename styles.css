@@ -1,0 +1,17 @@
+main{
+    color: black;
+    border-radius: 3%;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: pink;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 3%;
+}
+
+p{
+    font-size: 18px;
+}
