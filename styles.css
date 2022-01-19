@@ -21,7 +21,26 @@ img{
     color: hsl(215, 51%, 70%);
 }
 #etherium-count{
+    display: flex;
+    align-items: center;
     color: hsl(178, 100%, 50%);
+    justify-content: space-between;
+    width: 100px;
+}
+#image-avatar{
+    width: 30px;
+    padding-right: 10px;
+}
+#credits{
+    display: flex;
+    align-items: center;
+}
+
+#days-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
 }
 #line{
     color: hsl(215, 32%, 27%);
@@ -29,4 +48,9 @@ img{
 
 .name{
     color: hsl(0, 0%, 100%);
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
 }
