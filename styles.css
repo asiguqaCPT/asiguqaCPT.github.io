@@ -12,9 +12,8 @@ main{
     background-color: hsl(216, 50%, 16%);
 }
 
-img{
+main img{
     max-width: 100%;
-    height: auto;
     border-radius: 3%;
 }
 
@@ -50,6 +49,10 @@ img{
 .name{
     color: hsl(0, 0%, 100%);
 }
+.name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
 
 .stats{
     display: flex;
@@ -65,4 +68,5 @@ img{
 .main-img:hover{
     background-color: hsl(178, 100%, 50%);
     opacity: 40%;
+    cursor: pointer;
 }
