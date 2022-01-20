@@ -2,6 +2,7 @@ body{
     background-color: hsl(217, 54%, 11%);
 }
 main{
+    position: relative;
     font-size: 18px;
     color: black;
     border-radius: 3%;
@@ -53,4 +54,15 @@ img{
 .stats{
     display: flex;
     justify-content: space-between;
+}
+.main-img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 3%;
+    z-index: 55;
+}
+.main-img:hover{
+    background-color: hsl(178, 100%, 50%);
+    opacity: 40%;
 }
