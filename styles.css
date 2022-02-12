@@ -1,14 +1,18 @@
 body{
     background-color: hsl(217, 54%, 11%);
-    
-}
+}   
 main{
-    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
     font-size: 18px;
-    color: black;
     border-radius: 3%;
     width: 300px;
-    margin: auto;
     padding: 20px;
     background-color: hsl(216, 50%, 16%);
 }
